@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		460697EB1E31A359006A4ABE /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460697EA1E31A359006A4ABE /* DefinitionViewController.swift */; };
+		4657D2D51E33FF31008DFF84 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4657D2D41E33FF31008DFF84 /* Emoji.swift */; };
 		46EEED4B1E2F02C800E5CFAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EEED4A1E2F02C800E5CFAE /* AppDelegate.swift */; };
 		46EEED4D1E2F02C800E5CFAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EEED4C1E2F02C800E5CFAE /* ViewController.swift */; };
 		46EEED501E2F02C800E5CFAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46EEED4E1E2F02C800E5CFAE /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		460697EA1E31A359006A4ABE /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
+		4657D2D41E33FF31008DFF84 /* Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		46EEED471E2F02C800E5CFAE /* Demo02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46EEED4A1E2F02C800E5CFAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46EEED4C1E2F02C800E5CFAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				46EEED4A1E2F02C800E5CFAE /* AppDelegate.swift */,
 				46EEED4C1E2F02C800E5CFAE /* ViewController.swift */,
 				460697EA1E31A359006A4ABE /* DefinitionViewController.swift */,
+				4657D2D41E33FF31008DFF84 /* Emoji.swift */,
 				46EEED4E1E2F02C800E5CFAE /* Main.storyboard */,
 				46EEED511E2F02C800E5CFAE /* Assets.xcassets */,
 				46EEED531E2F02C800E5CFAE /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			files = (
 				46EEED4D1E2F02C800E5CFAE /* ViewController.swift in Sources */,
 				460697EB1E31A359006A4ABE /* DefinitionViewController.swift in Sources */,
+				4657D2D51E33FF31008DFF84 /* Emoji.swift in Sources */,
 				46EEED4B1E2F02C800E5CFAE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

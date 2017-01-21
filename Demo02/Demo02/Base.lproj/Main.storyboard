@@ -68,16 +68,34 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category: Smiley" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yup-fz-HKT">
+                                <rect key="frame" x="122.5" y="435" width="130" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BirthYear: 2010" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qV5-PK-5Er">
+                                <rect key="frame" x="129" y="491" width="117" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="qV5-PK-5Er" firstAttribute="centerX" secondItem="xcl-A5-XaC" secondAttribute="centerX" id="7aD-GX-fVa"/>
                             <constraint firstItem="PDf-vJ-WF8" firstAttribute="top" secondItem="zqS-dg-L8q" secondAttribute="bottom" constant="62" id="EOt-L0-NW2"/>
                             <constraint firstItem="zqS-dg-L8q" firstAttribute="centerX" secondItem="xcl-A5-XaC" secondAttribute="centerX" id="Mpn-ia-2OV"/>
+                            <constraint firstItem="qV5-PK-5Er" firstAttribute="top" secondItem="yup-fz-HKT" secondAttribute="bottom" constant="35" id="Prw-xB-7Sc"/>
                             <constraint firstItem="zqS-dg-L8q" firstAttribute="top" secondItem="mfO-eH-sYC" secondAttribute="bottom" constant="40" id="aZm-rw-8Cz"/>
+                            <constraint firstItem="yup-fz-HKT" firstAttribute="centerX" secondItem="xcl-A5-XaC" secondAttribute="centerX" id="kwC-U2-2d4"/>
                             <constraint firstItem="PDf-vJ-WF8" firstAttribute="centerX" secondItem="xcl-A5-XaC" secondAttribute="centerX" id="tVU-PB-qY8"/>
+                            <constraint firstItem="yup-fz-HKT" firstAttribute="top" secondItem="PDf-vJ-WF8" secondAttribute="bottom" constant="33" id="yVS-4F-f6Q"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="BirthYearLabel" destination="qV5-PK-5Er" id="tvD-ki-kCS"/>
+                        <outlet property="categoryLabel" destination="yup-fz-HKT" id="MlY-HT-9Yu"/>
                         <outlet property="definationLabel" destination="PDf-vJ-WF8" id="ORM-vM-mPV"/>
                         <outlet property="emojiLabel" destination="zqS-dg-L8q" id="Ay0-pz-eoV"/>
                     </connections>

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FDC5E8DE92D258D28EF7A98F566E8A23A4B4FB17",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FDC5E8DE92D258D28EF7A98F566E8A23A4B4FB17" : 9223372036854775807,
+    "F55DFB9B0B7F49C6617800FE00A5C807B10DA24B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5738C481-F3B4-49DF-84CA-DB00BAEB5AC2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FDC5E8DE92D258D28EF7A98F566E8A23A4B4FB17" : "Demo02\/",
+    "F55DFB9B0B7F49C6617800FE00A5C807B10DA24B" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Demo02",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Demo02.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tando89\/Swift3Learning.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F55DFB9B0B7F49C6617800FE00A5C807B10DA24B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tando89\/Demo02.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FDC5E8DE92D258D28EF7A98F566E8A23A4B4FB17"
+    }
+  ]
+}
