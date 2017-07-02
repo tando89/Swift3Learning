@@ -47,7 +47,7 @@ class ViewController: UIViewController {
         
         //creating a task to send the post request
         let task = URLSession.shared.dataTask(with: request as URLRequest){
-            data, response, error in
+            (data, response, error) in
             
             if error != nil{
                 print("error is \(String(describing: error))")
@@ -68,8 +68,9 @@ class ViewController: UIViewController {
                         msg = parseJSON["message"] as! String?
                         
                         //printing the response
+                        self.labelMessage.text = msg
                         print(msg)
-                        self.labelMessage.text = parseJSON["message"] as! String?
+                        
                     } //end if
                 } //end do
                 catch {
