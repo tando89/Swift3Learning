@@ -70,37 +70,21 @@ class ViewController: UIViewController {
                 //self.labelMessage.text = "Error"
                 return;
             } //End if
-                //parsing the response
-                do {
-                    //converting resonse to NSDictionary
-                    let myJSON =  try JSONSerialization.jsonObject(with: data!, options: .mutableContainers) as? NSDictionary
-                    
-                    //parsing the json
-                    if let parseJSON = myJSON {
-                        
-                        //creating a string
-                        var msg : String!
-                        
-                        //getting the json response
-                        msg = parseJSON["message"] as! String?
-                        
-                        //printing the response
-                        //self.labelMessage.text = msg
-                        DispatchQueue.main.async
-                            {
-                                let alert = UIAlertController(title: "Congratulation", message: msg, preferredStyle: .alert)
-                                alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
-                                self.present(alert, animated: true, completion: nil)
-                        }
-
-                        print(msg)
-                        
-                    } //end if
-                } //end do
-                catch {
-                    print(error)
-                }//end catch
-         }// End task
+            print("response = \(String(describing: response))")
+            
+            let responseString = NSString(data: data!, encoding: String.Encoding.utf8.rawValue)
+//            print("responseString = \(String(describing: responseString))")
+//            var msg : String!
+//            msg = "responseString = \(String(describing: responseString))"
+//            print (msg)
+            print (responseString as Any)
+            DispatchQueue.main.async
+                {
+                    let alert = UIAlertController(title: "Congratulation", message: responseString! as String, preferredStyle: .alert)
+                    alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
+                    self.present(alert, animated: true, completion: nil)
+            }
+            }// End task
         
             //executing the task
             task.resume()
@@ -109,7 +93,8 @@ class ViewController: UIViewController {
             textMember.text = ""
         }
     }
-    }//end btn
+    
+}//end btn
 //Hide the keyboard
 extension UIViewController {
     func hideKeyboardWhenTappedAround() {
