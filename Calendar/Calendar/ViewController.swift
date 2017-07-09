@@ -52,12 +52,17 @@ class ViewController: UIViewController, UITableViewDataSource {
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
         var cell = tableView.dequeueReusableCell(withIdentifier: "CalendarCells")
-        
+//        cell?.textLabel?.numberOfLines = 2
+//        cell?.textLabel?.lineBreakMode = .byWordWrapping
+//        cell?.detailTextLabel?.numberOfLines = 3;
+//        cell?.detailTextLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
         if !(cell != nil) {
-            cell = UITableViewCell(style: .subtitle, reuseIdentifier: "CalendarCells")
+            //cell = UITableViewCell(style: .subtitle, reuseIdentifier: "CalendarCells")
+            cell = tableView.dequeueReusableCell(withIdentifier: "CalendarCells")
         }
-        cell?.textLabel?.text=self.date[indexPath.row]
-        cell?.detailTextLabel?.text = self.note[indexPath.row]
+        
+        cell!.textLabel?.text=self.date[indexPath.row]
+        cell!.detailTextLabel?.text = self.note[indexPath.row]
         return cell!
     }
 }
